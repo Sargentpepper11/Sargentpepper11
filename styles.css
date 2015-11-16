@@ -1,4 +1,39 @@
-h1 { color: #FAEFE0; font-style: italic; }
-body { background-color: #B9BC70; }
-img { width: 500px; height: 360px;}
-.george { color: gray; font-style: italic; }
+h1{ 
+    font-style: oblique;
+    text-align: center;
+    font-size: 50px;
+}
+body {
+    background-image: url("http://www.zingerbugimages.com/backgrounds/wrinkled_white_paper_background_1800x1600.jpg");
+}
+
+img {width: 500px; height: 360px; }
+.george { color: gray; font-style: italic}
+ul li {display: inline-block;}
+
+header {
+    background-color:#748672;
+    color:white;
+    text-align:center;
+    padding:5px;	 
+}
+nav {
+    line-height:30px;
+    background-color:yellow;
+    height:300px;
+    width: 750px;
+    float:right;
+    padding:5px;	      
+}
+section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	 	 
+}
